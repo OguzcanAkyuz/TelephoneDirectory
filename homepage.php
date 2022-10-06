@@ -32,6 +32,13 @@ if(!$_SESSION['pw']){
 <style> .container h2 { 
   color: #17a2b8!important;
 }
+.exit-class{
+  position: fixed;
+  color:red;
+    top: 16px;
+    right: 40px;
+}
+
  </style> 
     <title>Telephone Directory</title>
   </head>
@@ -48,7 +55,7 @@ if(!$_SESSION['pw']){
         <a class="nav-link" class="event-listener"  href="kisiekle.php"><i class='fa-solid fa-user-plus'></i>Person Add<span class="sr-only">(current)</span></a>
        
       </li>
-  
+      <a class="exit-class"  href="exit.php"><i class="fa-solid fa-door-open"></i>Logout<span class="sr-only">(current)</span></a>
  
     </ul>
     

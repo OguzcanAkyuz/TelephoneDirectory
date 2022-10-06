@@ -45,13 +45,13 @@ if(!$_SESSION['pw']){
         <div class="saveperson-1">
           <div class="card-persons">  <h2> <i class="fa-sharp fa-solid fa-address-book"></i>NEW Person</h2></div>
           <label  class="form-label"><i class="fa-solid fa-user-plus"></i>Name</label>
-          <input type="text" class="form-control" name="Name" required>
+          <input type="text"  class="form-control" name="Name" required>
           <label  class="form-label"><i class="fa-solid fa-user-plus"></i>Surname</label>
-          <input type="text" class="form-control" name="Surname" required>
+          <input type="text"  class="form-control" name="Surname" required>
           <label  class="form-label"><i class="fa-solid fa-phone"></i>Phone Number</label>
-          <input type="text" class="form-control" name="PhoneNumber" required>
+          <input type="number" class="form-control" name="PhoneNumber" required>
           <label class="form-label"><i class="fa-solid fa-phone"></i>Phone Number(2)</label>
-          <input type="text" class="form-control" name="HomeNumber" required> <br>
+          <input type="number" pattern="\d{13}" class="form-control" name="HomeNumber" required> <br>
         <button type="submit" class="btn btn-info" class="event-listener">Save</button>
         </div>
       

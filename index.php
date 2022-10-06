@@ -55,8 +55,6 @@ $un=$_POST['username'];
 $pw=md5($_POST['password']);
 $un = stripcslashes($un);
 $pw = stripcslashes($pw);
-
-
 $dc = $db -> prepare("SELECT * from user WHERE password ='$pw'");
 $stmt = $db->prepare("SELECT * FROM user");
 $stmt->execute();

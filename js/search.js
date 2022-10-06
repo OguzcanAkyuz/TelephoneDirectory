@@ -13,13 +13,3 @@ function search_person() {
     }
 }
 
-// $(document).ready(function(){
-//     $("#search").keyup(function(){
-    
-//         var search = $("#search").val();
-//         $.post("search.php", {search: search}, function(result){
-//           console.log(result)
-//         });
-//     });
-//   });
-
