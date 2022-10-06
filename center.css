@@ -1,0 +1,19 @@
+.saveperson-1{
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 50%;
+   
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 3px 8px;
+}
+
+.fa-solid{
+    padding-right: 6px;
+}
+.bg-light{
+    background-color: #b9b9b9;
+}
+.th-color{
+    color: #17a2b8!important;
+}
