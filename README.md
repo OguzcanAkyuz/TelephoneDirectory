@@ -5,7 +5,7 @@ index.php
 Projemizin başlangıcında bizi bir login sayfası karşılıyor md5 olarak şifrelenmiş bir şekilde kullanıcı adı şifre girmemiz isteniyor (Username: admin,password:admin) 
 Database içerisinde şifremiz 21232f297a57a5a743894a0e4a801fc3 tutuluyorken, arayüzümüzde admin girdiğimizde giriş yapılıyor. Login olmadan başka bir sayfaya gidilemiyor. 
 Session sayesinde url kısmında login olmadan bir link yazdığımızda ilerleyemiyoruz.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 homepage.php 
 
 Burada projemizin anasayfası yer alıyor başlagıçta php ile session_start() bu sayfada pw yoksa login sayfasına atması için kural yazıyoruz.
@@ -25,19 +25,19 @@ Delete kısmına geçtiğimizde tıklandığında idye göre silebilen bir yapı
 silmek ister misiniz? yoksa iptal gibi bir seçenek koydum.
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Navbar kısmına geldiğimizde sağ tarafta Logout kısmını oluşturdum burada session ile diğer sayfalarda uyguladğımın tam tersi olarak pw var ise login sayfasına yönlendirerek
 çıkış yapılmasını sağlıyorum.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Kisiekle.php içerisinde html düzenlemelri yaptık öncesinde saveperson.php ile database kaydetmek için methodumuzu yazdık html ilerisinde form post ile saveperson.php post
 methodu ile database ekleme işlemini gerçekleştirdik.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 database.php 
 => İlk adımda XAMP Kontrol merkezimiznden bir adet MySQL serverimizi çalıştırdıktan sonra admin kısmına tıklıyoruz. 
 
 => Bizi bir localhost karşılıyor üst tarafta veritabanları kısmına tıklayıp yeni oluştur kısmına geliyoruz. Sol tarafa veritabanı ismimizi sağ tarafa önceden yapılandırılmış veritabanları karşılıyor. Karşılaştırmaya tıklayarak oluştura tıklıyoruz veritabanımız hazır.
 
------------------------------------------------------------------------------------------------------------------------------
+
                             Veritabanı Bağlama İşlemleri
 <?php 
 $dsn= 'mysql:dbname=telephone_directory;host';
